@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charity:Water — Turn Action Into Clean Water</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
+  <main class="container">
+    <header>
+      <svg class="drop" viewBox="0 0 64 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M32 4C22 20 8 30 8 46a24 24 0 1 0 48 0C56 30 42 20 32 4z" fill="#7ec9dc"/>
+      </svg>
+      <div class="brand">Charity:Water</div>
+    </header>
+
+    <section class="hero" aria-labelledby="title">
+      <h1 id="title">Turn Action Into Clean Water.</h1>
+      <p class="tagline">“Every dollar you give fuels real change delivering safe water to families, sparking measurable impact, and sharing stories of lives transformed.”</p>
     </section>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
+    <section class="media" aria-label="impact visuals">
+      <figure>
+        <img src="img/Screenshot 2025-09-07 at 11.02.21 PM.png" alt="Hands holding muddy water" />
+        <a class="play" href="#" aria-label="Play story">▶</a>
+      </figure>
+
+      <figure>
+        <img src="img/Screenshot 2025-09-07 at 11.06.53 PM.png" alt="Two glasses: dirty and clean water" />
+        <a class="play center" href="#" aria-label="Play story">▶</a>
+      </figure>
+
+      <figure>
+        <img src="img/Screenshot 2025-09-07 at 11.07.07 PM.png" alt="Child washing with clean water" />
+      </figure>
     </section>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
+    <section class="cta" id="donate" aria-label="donate">
+      <a class="donate-badge" href="#" title="Donate">
+        <span class="donate-button">DONATE</span>
+        <span class="hearts" aria-hidden="true">
+          <span class="heart"></span>
+          <span class="heart small"></span>
+        </span>
+      </a>
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <section class="copy" aria-labelledby="about">
+      <h2 id="about">Charity Water</h2>
+      <p>
+        Your gift helps bring safe, clean water to communities around the world. Together we fund wells, train local teams, and share impact stories with full transparency. Replace the placeholder images and the donate link above with your real assets whenever you push this to GitHub.
+      </p>
     </section>
+
+    <footer>
+      © 2025 Charity:Water · Built from your Canva concept with semantic HTML & beginner‑friendly CSS.
+    </footer>
+  </main>
 </body>
 </html>
